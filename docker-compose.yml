@@ -35,7 +35,7 @@
           CONFLUENT_METRICS_ENABLE: 'true'
           CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
       producer:
-        image: riferrei/producer-with-docker
+        image: producer-with-docker
         container_name: producer
         depends_on:
           - kafka

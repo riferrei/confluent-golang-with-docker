@@ -5,7 +5,7 @@ Sample application written in Go that sends messages to a Kafka topic using [Con
 ## Building the App
 
 ```bash
-docker build -t riferrei/producer-with-docker .
+docker build -t producer-with-docker .
 ```
 
 ## Start the Containers
