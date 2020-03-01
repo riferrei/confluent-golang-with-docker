@@ -34,6 +34,7 @@
           CONFLUENT_METRICS_REPORTER_TOPIC_REPLICAS: 1
           CONFLUENT_METRICS_ENABLE: 'true'
           CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
+          
       producer:
         image: producer-with-docker
         container_name: producer

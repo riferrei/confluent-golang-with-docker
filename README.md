@@ -1,6 +1,6 @@
 # Using Confluent's Go Client with Docker
 
-Sample application written in Go that sends messages to a Kafka topic using [Confluent's Go Client](https://github.com/confluentinc/confluent-kafka-go) implementation.
+Sample application written in Go that sends messages to a Kafka topic named `messages` using [Confluent's Go Client](https://github.com/confluentinc/confluent-kafka-go) implementation.
 
 ## Building the App
 
