@@ -36,6 +36,7 @@
           CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
           
       producer:
+        build: .
         image: producer-with-docker
         container_name: producer
         depends_on:

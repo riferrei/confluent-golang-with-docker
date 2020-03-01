@@ -2,17 +2,13 @@
 
 Sample application written in Go that sends messages to a Kafka topic named `messages` using [Confluent's Go Client](https://github.com/confluentinc/confluent-kafka-go) implementation.
 
-## Building the App
-
-```bash
-docker build -t producer-with-docker .
-```
-
 ## Start the Containers
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
+
+Keep in mind that when start the containers for the first time will take a while since the `producer-with-docker` is going to be built from the source.
 
 ## Check the Messages
 
