@@ -8,7 +8,7 @@ Sample application written in Go that sends messages to a Kafka topic named `mes
 docker-compose up
 ```
 
-Keep in mind that when start the containers for the first time will take a while since the `producer-with-docker` is going to be built from the source.
+Keep in mind that when starting the containers for the first time will take a while since the `producer-with-docker` is going to be built from the source.
 
 ## Check the Messages
 
